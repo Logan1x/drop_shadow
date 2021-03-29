@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.8.1/min/dropzone.min.js" integrity="sha512-OTNPkaN+JCQg2dj6Ht+yuHRHDwsq1WYsU6H0jDYHou/2ZayS2KXCfL28s/p11L0+GSppfPOqwbda47Q97pDP9Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js" ></script>
+    <script src="https://kit.fontawesome.com/1a48924413.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div class="flexy">
+        <img id="image" class="filter-shadow" src="image-removebg-preview.png" alt="Girl in a jacket" width="612" height="408"> 
+    </div>
+    <button class="button" onclick="submit()">Submit button</button> -->
+    
+    <!-- <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+    </form> -->
+    <!-- <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()"> -->
+
+    <div class="dropzone" id="myDropzone">Drop files here or click to upload.</div>
+    <ul class="flexy">
+        <li onclick="color('aqua')"><i class="fas fa-circle"></i></li>
+        <li onclick="color('blue')"><i class="fas fa-circle"></i></li>
+        <li onclick="color('green')"><i class="fas fa-circle"></i></li>
+        <li onclick="color('lime')"><i class="fas fa-circle"></i></li>
+    </ul>
+    <button class="button" onclick="download()">Download Image</button>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+.dz-image{
+    /* max-width: 50%; */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* filter: drop-shadow(0 0 0.75rem rgb(14, 180, 221)); */
+}
+
+.dz-image img{
+    /* width: 500px; */
+}
+
+.dz-size, .dz-filename, .dz-progress, .dz-error-message, .dz-success-mark, .dz-error-mark{
+    display:none;
+}
+
+.filter-shadow{
+    /* filter: drop-shadow(30px 10px 4px #4444dd); */
+    filter: drop-shadow(0 0 0.75rem rgb(14, 180, 221));
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: none;
+    padding: .5rem 1rem;
+}
+
+.flexy{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+li {
+    padding: 0rem .5rem;
+    display: inline;
+    font-size: 35px;
+}
+
+li:nth-child(1){
+    color: aqua;
+}
+li:nth-child(2){
+    color: blue;
+}
+li:nth-child(3){
+    color: green;
+}
+li:nth-child(4){
+    color: lime;
+}
+
+.dropzone {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    max-width: 500px;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.dropzone button {
+    display: none;
+}
